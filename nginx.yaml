@@ -29,8 +29,8 @@ spec:
       configMap:
         name: fluentd-config
         items:
-          - key: fluentd.conf
-            path: fluentd.conf
+          - key: fluent.conf
+            path: fluent.conf
     - name: log-volume
       emptyDir: {}
 ---
