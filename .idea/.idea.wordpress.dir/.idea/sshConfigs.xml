@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:3}" host="34.80.66.30" id="df24b084-98bc-437f-b5f2-1db98e3ea48e" port="22" customName="k8s_course" nameFormat="CUSTOM" username="user-9" useOpenSSHConfig="true">
+        <option name="customName" value="k8s_course" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

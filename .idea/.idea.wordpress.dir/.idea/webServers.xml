@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="09226cb2-056f-4394-879b-c537b761df1d" name="k8s_course" url="http://34.80.66.30">
+        <fileTransfer rootFolder="/home/user-9" accessType="SFTP" host="34.80.66.30" port="22" sshConfigId="df24b084-98bc-437f-b5f2-1db98e3ea48e" sshConfig="k8s_course">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="3000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
