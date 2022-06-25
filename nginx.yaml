@@ -41,3 +41,7 @@ metadata:
 spec:
   selector:
     app: nginx-pod
+  ports:
+    - port: 8888
+      targetPort: 80
+  type: LoadBalancer
