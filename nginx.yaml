@@ -11,8 +11,8 @@ spec:
           name: nginx-config
         - mountPath: /var/log/nginx/
           name: log-volume
-    - image: nginx:1.23.0
-      name: nginx
+    - image: fluentd:latest
+      name: fluentd
       volumeMounts:
         - mountPath: /fluentd/etc/
           name: fluentd-config
