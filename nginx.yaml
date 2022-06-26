@@ -12,6 +12,13 @@ spec:
         - name: nginx
           containerPort: 80
           protocol: TCP
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
       volumeMounts:
         - mountPath: /etc/nginx/
           name: nginx-config
@@ -23,6 +30,13 @@ spec:
         - name: fluentd
           containerPort: 24224
           protocol: TCP
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
       volumeMounts:
         - mountPath: /fluentd/etc/
           name: fluentd-config
@@ -42,7 +56,7 @@ spec:
           - key: fluent.conf
             path: fluent.conf
     - name: log-volume
-      emptyDir: {}
+      emptyDir: { }
 ---
 apiVersion: v1
 kind: Service
